@@ -1,3 +1,8 @@
+name: zmk-keyboard-k1012
+description: 5 way switch keyboard build for health and performance.
 build:
+  depends:
+  kconfig: Kconfig
   settings:
     board_root: .
+    
